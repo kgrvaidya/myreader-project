@@ -1,9 +1,5 @@
 import React from 'react';
 
-const getValue = (id) => {
-    // console.log(id);
-    return 'read';
-}
 const Book = ({book, handleChange, shelve}) => (
         <div className="book">
             <div className="book-top">
